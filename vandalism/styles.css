@@ -1,0 +1,78 @@
+#mddcanvas:active {
+    cursor: crosshair;
+}
+#mddchooserWidgets {
+    display: block;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 2em;
+    width: 300px;
+}
+#mddchooserWidgets canvas {
+    margin-bottom: 10px;
+}
+#mddcontrols {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 90px;
+}
+.mddctr_btn {
+    background:#FFF;
+    border:1px solid #AAA;
+    cursor: pointer;
+    height: 20px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    padding-left: 3px;
+    width: 90px;
+}
+.mddctr_btn:hover {
+    background-color: #EEE;
+}
+li.mddselected {
+    background-color: #CCC;
+}
+li.mddlast {
+    margin-bottom: 2em;
+}
+.mdddragme {
+    position: absolute;
+    z-index: 1003;
+    position: fixed;
+}
+.mdddragginghandler {
+    background-color: #F1F1F1;
+    background-image: url(gradient.png);
+    background-repeat: repeat-x;
+    border: 1px solid gray;
+    cursor: move;
+    height: 17px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    padding: 0 3px 3px 0;
+    text-align: right;
+    position: relative;
+}
+.mddsocket {
+    background: transparent url(socket.png) right bottom no-repeat scroll;
+    display: block;
+    height: 100%;
+}
+.mddtoolbar {
+    left: 15px;
+    top: 15px;
+    width: 95px;
+}
+.mddchoosers {
+    height: 193px;
+    left: 120px;
+    top: 15px;
+    width: 277px;
+}
+.mdddragme canvas {
+    border: 1px solid #AAA;
+}
