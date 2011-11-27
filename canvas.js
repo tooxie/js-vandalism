@@ -18,7 +18,7 @@
 
  */
 var mozDevDerby = {
-        host: ''
+        host: 'http://tooxie.github.com/js-vandalism/vandalism/'
     },
     body = document.body,
     head = document.head;
