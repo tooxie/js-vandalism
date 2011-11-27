@@ -13,16 +13,21 @@ Vandalism is an application that lets you scribble on web pages. You can draw fi
 [0] https://addons.mozilla.org/en-US/firefox/addon/abduction/
 
 
+How does it work?
+=================
+
+When you open index you'll see an image, drag it and drop it on your bookmarks tab. Now go to another webpage, any, and click it, you should be able to make annotations on it.
+
+
 Design
 ======
 
 The app right now is not very pretty. I'm looking for a designer who may want to contribute to the project. If you want to help please contact me.
 
-
 On the soulders of giants
 =========================
 
-This app is based on Rafael Robayna's "Canvas Painter" [1] and on switchonthecode.com's tutorial "Draggable Elements". Nevertheless it has a lot of work on top of it.
+This app is based on Rafael Robayna's "Canvas Painter" [1] and on switchonthecode.com's tutorial "Draggable Elements" [2]. Nevertheless it has a lot of work on top of it.
 
 [1] http://caimansys.com/painter/
 
