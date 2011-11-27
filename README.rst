@@ -71,4 +71,6 @@ TODO list
 * The logic is highly coupled to the GUI. When you add a button to the toolbar you can break everything.
 
 
-I hope you find it useful.
+I hope you find it useful. Fork it.
+
+Happy hacking!
