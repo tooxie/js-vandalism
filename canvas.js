@@ -18,7 +18,7 @@
 
  */
 var mozDevDerby = {
-    host: 'https://developer.mozilla.org/media/uploads/demos/t/u/tuxie/aad66c7f05a219b29f25e34684051871/vandalism_1322408373_demo_package/vandalism'
+        host: 'http://tooxie.github.com/js-vandalism/vandalism'
     },
     body = document.body,
     head = document.head;
