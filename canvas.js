@@ -83,7 +83,7 @@ mozDevDerby.injectHTML = function () {
                '        <li id="mddbtn_about" class="mddctr_btn mddnotselectable">About</li>' +
                '    </ul>' +
                '</div>' +
-               '<div class="mdddragme mddchoosers" style="left: 140px; top: 15px;">' +
+               '<div class="mdddragme mddchoosers" style="left: 145px; top: 15px;">' +
                '    <div class="mdddragginghandler">' +
                '        <span class="mddsocket"></span>' +
                '    </div>' +
