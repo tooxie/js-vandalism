@@ -32,33 +32,42 @@ switchonthecode.com's tutorial "Draggable Elements". Nevertheless it has a lot
 of work on top of it.
 
 [1] http://caimansys.com/painter/
+
 [2] http://www.switchonthecode.com/tutorials/javascript-draggable-elements
 
-Features added:
-* Drag and drop for the toolbars.
-* Text writing.
-* Undo and redo.
 
-Features dropped:
-* IE support.
-* Canvas animator.
-* "New" button.
+Features added
+--------------
 
-Changes and bugfixes:
-* Many UI features that were applied through JS were reimplemented on CSS.
-* Some buttons get selected when clicked, other don't.
-* All the code was JSLint'ed.
-* The mousedown event got captured when mousemove began, not when mouse was
-  clicked.
-* Widgets no longer needs to be positioned absolutly and referenced absolutly.
+ * Drag and drop for the toolbars.
+ * Text writing.
+ * Undo and redo.
 
-TODO list:
-* If you just click and release (no drag) nothing gets drawn but an entry in
-  history is created.
-* A color picker would be nice.
-* Prettier design. Anyone wants to help? =)
-* The logic is highly coupled to the GUI. When you add a button to the toolbar
-  you can break everything.
+
+Features dropped
+----------------
+
+ * IE support.
+ * Canvas animator.
+ * "New" button.
+
+
+Changes and bugfixes
+--------------------
+
+ * Many UI features that were applied through JS were reimplemented on CSS.
+ * Some buttons get selected when clicked, other don't.
+ * All the code was JSLint'ed.
+ * The mousedown event got captured when mousemove began, not when mouse was clicked.
+ * Widgets no longer needs to be positioned absolutly and referenced absolutly.
+
+TODO list
+---------
+
+ * If you just click and release (no drag) nothing gets drawn but an entry in history is created.
+ * A color picker would be nice.
+ * Prettier design. Anyone wants to help? =)
+ * The logic is highly coupled to the GUI. When you add a button to the toolbar you can break everything.
 
 
 I hope you find it useful.
