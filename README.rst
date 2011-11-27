@@ -16,7 +16,7 @@ Vandalism is an application that lets you scribble on web pages. You can draw fi
 How does it work?
 =================
 
-When you open index you'll see an image, drag it and drop it on your bookmarks tab. Now go to another webpage, any, and click it, you should be able to make annotations on it.
+Open the file index.html (or launch the demo if you are on Mozilla's Demo Studio.) You'll see an image, drag it to your bookmarks tab and drop it there. Now go to another web page, any, and click the brand new bookmark. You should be able to make annotations on the web page.
 
 
 Design
@@ -24,7 +24,7 @@ Design
 
 The app right now is not very pretty. I'm looking for a designer who may want to contribute to the project. If you want to help please contact me.
 
-On the soulders of giants
+On the shoulders of giants
 =========================
 
 This app is based on Rafael Robayna's "Canvas Painter" [1] and on switchonthecode.com's tutorial "Draggable Elements" [2]. Nevertheless it has a lot of work on top of it.
@@ -57,7 +57,7 @@ Changes and bugfixes
 * Some buttons, like brushes, get selected when clicked, other, such as undo, don't.
 * All the code was JSLint'ed.
 * The mousedown event got captured when mousemove began, not when mouse was clicked.
-* Widgets no longer needs to be positioned absolutly and referenced absolutly.
+* Widgets no longer needs to be positioned absolutely and referenced absolutely.
 
 
 TODO list
