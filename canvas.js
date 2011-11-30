@@ -65,7 +65,8 @@ mozDevDerby.loadExternals = function () {
 
 mozDevDerby.injectHTML = function () {
     // HTML
-    var html = '<div class="mdddragme mddtoolbar" style="left: 15px; top: 15px;">' +
+    var body = document.body,
+        html = '<div class="mdddragme mddtoolbar" style="left: 15px; top: 15px;">' +
                '    <div class="mdddragginghandler">' +
                '        <span class="mddsocket"></span>' +
                '    </div>' +
@@ -181,7 +182,7 @@ mozDevDerby.init = function () {
 
     // About
     document.getElementById('mddbtn_about').addEventListener('click', function () {
-        alert("Made by Alvaro Mouriño for the canvas' Mozilla Dev Derby.\nBased on Rafael Robayna's 'Canvas Painter' application and switchonthecode.com's 'Draggable Elements' tutorial.");
+        alert("Made by Alvaro Mouri&ntilde;o for the canvas' Mozilla Dev Derby.\nBased on Rafael Robayna's 'Canvas Painter' application and switchonthecode.com's 'Draggable Elements' tutorial.");
     }, false);
 };
 
@@ -192,7 +193,18 @@ mozDevDerby.setCPDrawAction = function (action, input) {
     mozDevDerby.canvasPainter.setDrawAction(action);
 };
 
-if (!document.getElementById('mddcanvas')) {
+if (document.getElementById('mddcanvas')) {
+    var toolbars = document.getElementsByClassName('mdddragme'),
+        x = null;
+    for (x = 0; x < toolbars.length; x += 1) {
+        // When the element is visibile visibility can be '' or 'visible'.
+        if (toolbars[x].style.visibility === "hidden") {
+            toolbars[x].style.visibility = "visible";
+        } else {
+            toolbars[x].style.visibility = "hidden";
+        }
+    }
+} else {
     mozDevDerby.loadExternals();
     mozDevDerby.injectHTML();
     mozDevDerby.loadScript();
