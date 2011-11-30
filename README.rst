@@ -16,7 +16,7 @@ Vandalism is an application that lets you scribble on web pages. You can draw fi
 How does it work?
 =================
 
-Open the file index.html (or launch the demo if you are on Mozilla's Demo Studio.) You'll see an image, drag it to your bookmarks tab and drop it there. Now go to another web page, any, and click the brand new bookmark. You should be able to make annotations on the web page.
+Open the file index.html (or launch the demo if you are on Mozilla's Demo Studio.) You'll see an image, drag it to your bookmarks tab and drop it there. Now go to another web page, any, and click the brand new bookmark. You should be able to make annotations on the web page. Click the button once again and the panels will hide so you can take a snapshot of your artistic expression.
 
 
 Design
